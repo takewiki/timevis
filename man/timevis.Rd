@@ -4,6 +4,7 @@
 \name{timevis}
 \alias{timevis}
 \alias{timevis-package}
+\alias{timevis}
 \title{Create a timeline visualization}
 \usage{
 timevis(data, groups, showZoom = TRUE, zoomFactor = 0.5, fit = TRUE,
@@ -192,6 +193,7 @@ This timeline object is the direct widget that \code{vis.js} creates, and you
 can see the \href{http://visjs.org/docs/timeline/}{visjs documentation} to
 see what actions you can perform on that object.
 }
+
 \examples{
 # For more examples, see http://daattali.com/shiny/timevis-demo/
 
@@ -315,4 +317,3 @@ shinyApp(ui, server)
 \seealso{
 \href{http://daattali.com/shiny/timevis-demo/}{Demo Shiny app}
 }
-
